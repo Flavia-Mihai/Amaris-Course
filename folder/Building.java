@@ -9,14 +9,14 @@ public class Building {
     private List<Floor> floors = new ArrayList<>();
 
 
-    public void addFloor(Floor floor) {
+    public void addFloorLisandro(Floor floor) {
         floors.add(floor);
     }
 
-    public int getTotalArea() {
+    public int getTotalAreaLisandro() {
         int sumAllFloors = 0;
         for (Floor floor : floors) {
-            sumAllFloors += floor.getArea();
+            sumAllFloors += floor.getAreaLisandro();
         }
         return sumAllFloors;
     }

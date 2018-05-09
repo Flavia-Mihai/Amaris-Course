@@ -8,14 +8,14 @@ public class Floor {
     private Building building;
     private List<Room> roomList = new ArrayList<>();
 
-    public void addRoom(Room room) {
+    public void addRoomLisandro(Room room) {
         roomList.add(room);
     }
 
-    public int getArea() {
+    public int getAreaLisandro() {
         int sumAreaRooms = 0;
         for (Room room : roomList) {
-            sumAreaRooms += room.getArea();
+            sumAreaRooms += room.getAreaLisandro();
         }
         return sumAreaRooms;
     }

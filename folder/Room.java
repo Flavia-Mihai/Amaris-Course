@@ -13,7 +13,7 @@ public class Room {
         height = heightConstructor;
     }
 
-    public int getArea() {
+    public int getAreaLisandro() {
         return width * length * height;
     }
 }

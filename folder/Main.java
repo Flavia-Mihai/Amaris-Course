@@ -7,18 +7,18 @@ public class Main {
         Room roomTwo = new Room(2, 2, 2);
 
         Floor floorOne = new Floor();
-        floorOne.addRoom(roomTwo);
-        floorOne.addRoom(roomOne);
+        floorOne.addRoomLisandro(roomTwo);
+        floorOne.addRoomLisandro(roomOne);
 
         Room roomThree = new Room(1, 1, 1);
         Floor floorTwo = new Floor();
-        floorTwo.addRoom(roomThree);
+        floorTwo.addRoomLisandro(roomThree);
 
         Building building = new Building();
-        building.addFloor(floorOne);
-        building.addFloor(floorTwo);
+        building.addFloorLisandro(floorOne);
+        building.addFloorLisandro(floorTwo);
 
-        System.out.println("Total area of building " + building.getTotalArea());
+        System.out.println("Total area of building " + building.getTotalAreaLisandro());
     }
 
 }
